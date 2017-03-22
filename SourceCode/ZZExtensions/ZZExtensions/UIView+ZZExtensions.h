@@ -44,3 +44,6 @@
 - (void)setCenterY:(CGFloat)centerY;
 
 @end
+
+#define ZZScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ZZScreenHeight [UIScreen mainScreen].bounds.size.height

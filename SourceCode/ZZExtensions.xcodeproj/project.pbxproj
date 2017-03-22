@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADA3A88B1E82505000CCE686 /* UILabel+ZZExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3A88A1E82505000CCE686 /* UILabel+ZZExtensions.m */; };
 		ADADD20F1E7F6C9400142DA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD20E1E7F6C9400142DA7 /* main.m */; };
 		ADADD2121E7F6C9400142DA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2111E7F6C9400142DA7 /* AppDelegate.m */; };
 		ADADD2151E7F6C9400142DA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2141E7F6C9400142DA7 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADA3A8891E82505000CCE686 /* UILabel+ZZExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZZExtensions.h"; sourceTree = "<group>"; };
+		ADA3A88A1E82505000CCE686 /* UILabel+ZZExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZZExtensions.m"; sourceTree = "<group>"; };
 		ADADD20A1E7F6C9400142DA7 /* ZZExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADADD20E1E7F6C9400142DA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADADD2101E7F6C9400142DA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				ADADD22A1E7F6CD500142DA7 /* UIColor+ZZExtensions.m */,
 				ADADD22B1E7F6CD500142DA7 /* UIView+ZZExtensions.h */,
 				ADADD22C1E7F6CD500142DA7 /* UIView+ZZExtensions.m */,
+				ADA3A8891E82505000CCE686 /* UILabel+ZZExtensions.h */,
+				ADA3A88A1E82505000CCE686 /* UILabel+ZZExtensions.m */,
 			);
 			path = ZZExtensions;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				ADADD2121E7F6C9400142DA7 /* AppDelegate.m in Sources */,
 				ADADD20F1E7F6C9400142DA7 /* main.m in Sources */,
 				ADADD22D1E7F6CD500142DA7 /* NSNumber+ZZExtensions.m in Sources */,
+				ADA3A88B1E82505000CCE686 /* UILabel+ZZExtensions.m in Sources */,
 				ADADD22F1E7F6CD500142DA7 /* UIColor+ZZExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +347,7 @@
 				ADADD2231E7F6C9400142DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

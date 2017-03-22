@@ -6,12 +6,11 @@
 //  Copyright © 2017年 Z. All rights reserved.
 //
 
-#define ZColor(hex) [self colorWithHex:hex]
-
 #import <UIKit/UIKit.h>
 
-@interface UIColor (ZZExtensions)
+#define ZColor(hex) [UIColor colorWithHex:hex]
 
+@interface UIColor (ZZExtensions)
 
 + (UIColor *)colorWithHex:(NSInteger)hexValue;
 + (UIColor *)colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
